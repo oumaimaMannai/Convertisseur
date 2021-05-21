@@ -8,3 +8,8 @@
 « convertisseur » avec la méthode « Assert.assertEquals » ( A noter que la méthode assertEquals prend en paramètre 3 variables)
 • La méthode de test « Testing2 » qui fait appel à la méthode méthode « convertir » de l’objet « convertisseur » avec un taux de conversion égal à 2.5 et teste le résultat stocké dans 
 « convertisseur » avec la méthode « Assert.assertTrue »
+
+la méthode « Convertir » pour tester le paramètre taux au cas où il est égal à 0. Dans ce cas il fera appel au constructeur de la classe « UniteDistincteException » qu’il faut créer etqui contient un attribut de type « Convertisseur » et la méthode toString 
+qui retourne le « String » ‘Le convertisseur a rencontré une exception’.
+
+La troisième méthode de test « Testing3 » similaire à la méthode « Testing1 » mais avec le taux 0. 
